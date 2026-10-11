@@ -42,6 +42,12 @@ a {
 <h3>支付宝</h3>
 <img src="https://houhou0706.github.io/PSP-Radioplayer/alipay.JPG" alt="支付宝收款码">
 <p>完成付款后，点击下方按钮获取文件。</p>
-<a href="YOUR_GITHUB_DOWNLOAD_URL">进入下载页面</a>
+
+<button onclick="document.getElementById('download-area').style.display='block'; this.style.display='none';">
+  我已付款，显示下载链接
+</button>
+<div id="download-area" style="display:none; margin-top:20px;">
+  <a href="./RADIOPLAYER.zip">点击下载软件</a>
+</div>
 </body>
 </html>
