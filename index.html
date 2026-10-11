@@ -37,25 +37,32 @@ a {
 <p>感谢支持我的软件整理与分享。</p>
 <p><strong>软件获取费用：¥3 元</strong></p>
 <p>请使用微信或支付宝扫码付款 3 元。</p>
-<p>付款完成后，点击下方按钮获取文件。</p>
 <h3>微信支付</h3>
 <img src="https://houhou0706.github.io/PSP-Radioplayer/wechat.JPG" alt="微信收款码">
 <h3>支付宝</h3>
 <img src="https://houhou0706.github.io/PSP-Radioplayer/alipay.JPG" alt="支付宝收款码">
-<p>完成付款后，点击下方按钮获取文件。</p>
-
-
 <div id="payment-area">
-  <h3>付款后获取软件</h3>
-  <p>请扫码支付 ¥3 元，并保存付款成功的截图。</p>
-  <p>付款完成后，请联系卖家核对订单。</p>
-<p>付款完成后，请点击下方按钮下载软件。</p>
+  <h3>购买流程</h3>
 
-<a href="./RADIOPLAYER.zip"
-   style="display:block;background:#222;color:white;padding:14px;border-radius:10px;text-decoration:none;margin-top:18px;">
-  下载 RADIOPLAYER
-</a>
+  <p>第一步：扫描上方微信或支付宝二维码，支付 ¥3。</p>
+
+  <p>第二步：付款成功后，将付款截图发送给卖家。</p>
+
+  <button
+    onclick="document.getElementById('step3').style.display='block'; this.style.display='none';"
+    style="background:#222;color:white;padding:14px 20px;border:0;border-radius:10px;margin-top:12px;cursor:pointer;">
+    我已付款，已将付款截图发给卖家
+  </button>
+
+  <div id="step3" style="display:none;margin-top:20px;">
+    <p>第三步：联系卖家核对付款并获取下载链接。</p>
+    <p>核对成功后，卖家会发送软件的下载链接。</p>
+  </div>
 </div>
+</body>
+</html>
+
+注意： 你原来的代码在最后还有一个多余的 </div>，这次替换时一起处理掉。上面的代码已经包含正确的结尾，所以不要再额外添加 </body> 或 </html>。
 </div>
 </body>
 </html>
