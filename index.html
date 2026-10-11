@@ -48,11 +48,15 @@ a {
 
   <p>第二步：付款成功后，将付款截图发送给卖家。</p>
 
-  <button
-    onclick="document.getElementById('step3').style.display='block'; this.style.display='none';"
-    style="background:#222;color:white;padding:14px 20px;border:0;border-radius:10px;margin-top:12px;cursor:pointer;">
-    我已付款，已将付款截图发给卖家
-  </button>
+<button
+  onclick="document.getElementById('download-area').style.display='block'; this.style.display='none';"
+  style="background:#222;color:white;padding:14px 20px;border:0;border-radius:10px;margin-top:12px;cursor:pointer;">
+  我已付款，获取下载链接
+</button>
+
+<div id="download-area" style="display:none;margin-top:20px;">
+  <a href="./RADIOPLAYER.zip">下载 RADIOPLAYER</a>
+</div>
 
   <div id="step3" style="display:none;margin-top:20px;">
     <p>第三步：联系卖家核对付款并获取下载链接。</p>
